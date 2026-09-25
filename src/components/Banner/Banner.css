@@ -1,0 +1,28 @@
+.banner {
+  background: linear-gradient(135deg, var(--cor-marca, #6278f7) 0%, #4a5fd4 100%);
+  text-align: center;
+  padding: 1.5rem 1rem 2rem;
+  color: #fff;
+  box-shadow: var(--sombra-md);
+}
+
+.banner img {
+  max-width: min(280px, 70vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+.banner__titulo h1 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.banner__titulo p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+}

@@ -1,0 +1,25 @@
+.busca {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 420px;
+  margin: 1.5rem auto;
+  padding: 0.65rem 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: var(--sombra-input);
+  border: 1px solid rgba(98, 120, 247, 0.15);
+}
+
+.busca input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.busca svg {
+  color: #6278f7;
+  flex-shrink: 0;
+}

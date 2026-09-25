@@ -1,0 +1,45 @@
+.lista-suspensa {
+  margin: 1.25rem 0;
+}
+
+.lista-suspensa label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--cor-texto, #212121);
+}
+
+.lista-suspensa__req {
+  color: #c62828;
+}
+
+.lista-suspensa select {
+  background-color: #fff;
+  box-shadow: var(--sombra-input);
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  padding: 1rem 1.15rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lista-suspensa select:focus {
+  outline: none;
+  border-color: var(--cor-marca, #6278f7);
+  box-shadow: 0 0 0 3px rgba(98, 120, 247, 0.25);
+}
+
+.lista-suspensa--erro select {
+  border-color: #c62828;
+}
+
+.lista-suspensa__erro {
+  display: block;
+  margin-top: 0.4rem;
+  color: #c62828;
+  font-size: 0.875rem;
+}

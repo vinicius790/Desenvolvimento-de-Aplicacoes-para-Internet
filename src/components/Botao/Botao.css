@@ -1,0 +1,32 @@
+.botao {
+  background-color: var(--cor-marca, #6278f7);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 1.25rem 2rem;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 1.5rem 0 0.5rem;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  box-shadow: 0 4px 14px rgba(98, 120, 247, 0.35);
+}
+
+.botao:hover:not(:disabled) {
+  color: #95ffd4;
+  transform: translateY(-1px);
+}
+
+.botao:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.botao:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.botao:focus-visible {
+  outline: 3px solid #95ffd4;
+  outline-offset: 2px;
+}

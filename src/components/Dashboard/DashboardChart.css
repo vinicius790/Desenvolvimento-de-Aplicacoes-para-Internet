@@ -1,0 +1,14 @@
+.dashboard-chart {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: var(--sombra-card);
+}
+
+.dashboard-chart__vazio {
+  text-align: center;
+  color: #666;
+}

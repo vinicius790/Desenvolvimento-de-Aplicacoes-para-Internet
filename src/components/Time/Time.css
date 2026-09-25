@@ -1,0 +1,30 @@
+.time {
+  padding: 2rem 1.25rem 2.5rem;
+  margin: 0;
+}
+
+.time__topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.time h3 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  border-bottom: 4px solid;
+  display: inline-block;
+  padding-bottom: 0.35rem;
+  color: #212121;
+}
+
+.time__colaboradores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}

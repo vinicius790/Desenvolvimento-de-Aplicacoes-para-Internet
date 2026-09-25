@@ -1,0 +1,29 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 1rem;
+}
+
+.formulario form {
+  width: min(640px, 100%);
+  background-color: #f7f8fc;
+  border-radius: 20px;
+  padding: 2rem 2.5rem;
+  box-shadow: var(--sombra-card);
+  border: 1px solid rgba(98, 120, 247, 0.12);
+}
+
+.formulario h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.15rem, 3vw, 1.45rem);
+  color: var(--cor-texto, #212121);
+}
+
+@media (max-width: 560px) {
+  .formulario form {
+    padding: 1.25rem 1.15rem;
+  }
+}

@@ -1,0 +1,101 @@
+.page-intro {
+  text-align: center;
+  padding: 1.75rem 1rem 0.5rem;
+}
+
+.page-intro h2 {
+  margin: 0 0 0.35rem;
+  color: #212121;
+}
+
+.page-intro p {
+  margin: 0;
+  color: #555;
+}
+
+.page-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0 1rem;
+}
+
+.btn-export {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: none;
+  background: #6278f7;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(98, 120, 247, 0.3);
+}
+
+.btn-export:hover {
+  color: #95ffd4;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: #555;
+  max-width: 420px;
+  margin: 1rem auto 2rem;
+  background: #f7f8fc;
+  border-radius: 16px;
+  border: 1px dashed rgba(98, 120, 247, 0.35);
+}
+
+.empty-state h2 {
+  margin: 0.75rem 0 0.35rem;
+  color: #212121;
+}
+
+.empty-state svg {
+  color: #6278f7;
+}
+
+.painel-lista {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto 2rem;
+  max-width: 420px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.painel-lista li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  box-shadow: var(--sombra-input);
+}
+
+.painel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.sobre {
+  max-width: 680px;
+  margin: 2rem auto;
+  padding: 0 1.25rem 2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.sobre__aviso {
+  background: #fff8e1;
+  border-left: 4px solid #ffba05;
+  padding: 0.75rem 1rem;
+  border-radius: 0 8px 8px 0;
+}

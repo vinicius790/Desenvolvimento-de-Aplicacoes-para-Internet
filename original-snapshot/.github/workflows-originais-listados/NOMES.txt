@@ -1,0 +1,17 @@
+azure-functions-app-nodejs.yml
+azure-webapps-node.yml
+codeql.yml
+fortify.yml
+ibm.yml
+jekyll-docker.yml
+manual.yml
+node.js.yml
+npm-grunt.yml
+npm-gulp.yml
+npm-publish-github-packages.yml
+npm-publish.yml
+static.yml
+tencent.yml
+terraform.yml
+webpack.yml
+16 workflows de template foram removidos no rebuild. Lista acima.
